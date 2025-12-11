@@ -30,9 +30,10 @@ A Flask-based movie recommender that serves similarity-based suggestions using p
 ## Screenshots
 
 ![Home & Search](outputs/out_1.png)
-![Recommendations](outputs/out_2.png)
-![Suggestions Dropdown](outputs/out_3.png)
-
+![Recommendations](outputs/out2.png)
+![Suggestions Dropdown](outputs/out3.png)
+![Suggestions Dropdown](outputs/out4.png)
+![Suggestions Dropdown](outputs/out5.png)
 
 
 ## Training (optional)
