@@ -15,11 +15,11 @@ from difflib import SequenceMatcher
 
 df = pd.read_csv("models/df_movies.csv")
 
-with open("models/tfidf_vectorizer.pkl", "rb") as f:
+with open("models/models_2/tfidf_vectorizer.pkl", "rb") as f:
     tfidf = pickle.load(f)
 
-tfidf_matrix = sparse.load_npz("models/tfidf_matrix.npz")
-cosine_sim = np.load("models/cosine_similarity.npy")
+tfidf_matrix = sparse.load_npz("models/models_2/tfidf_matrix.npz")
+cosine_sim = np.load("models/models_2/cosine_similarity.npy")
 
 
 # -----------------------------
