@@ -4,10 +4,9 @@ A Flask-based movie recommender that serves similarity-based suggestions using p
 
 ## Project Structure
 - [app.py](app.py): Flask backend exposing recommend/search/suggest endpoints.
-- [main.py](main.py): Training pipeline to normalize data, build TF-IDF, generate pairwise labels, train the SVM, and save artifacts.
 - [templates/index.html](templates/index.html): Front-end page with search, recommendations, and live suggestions.
 - [static/style.css](static/style.css): Styling for the UI.
-- [models/](models/): Saved artifacts (`tfidf_vectorizer.pkl`, `tfidf_matrix.npz`, `cosine_similarity.npy`, `df_movies.csv`).
+- [models/](models/models_2): Saved artifacts (`tfidf_vectorizer.pkl`, `tfidf_matrix.npz`, `cosine_similarity.npy`, `df_movies.csv`).
 - [data/movies_with_images.csv](data/movies_with_images.csv): Source data (titles, metadata, and poster URLs).
 - [requirements.txt](requirements.txt): Python dependencies.
 
